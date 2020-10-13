@@ -1,5 +1,174 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    
 }
+
+html,body{
+    height: 100%;
+    background-color: #0099cc;
+}
+
+.center{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5%;
+    background-color: #0181dc;
+    height: 70%;
+    
+}
+
+
+section.topo{
+    background-color: #0099cc;
+    padding-top: 20px;
+
+}
+
+section.meio{
+  
+}
+.logo{
+   margin-left: -9%;
+   margin-top: 0.3%;
+}
+
+.menu-desktop{
+ margin-right: 5%;
+}
+
+.menu-desktop li{
+    display: inline-block;
+    margin: 0 15px;
+    padding-top: 35px;
+}
+
+.menu-desktop a{
+    text-decoration: none;
+    color: azure;
+}
+
+.menu-desktop a:hover{
+    color: black;
+} 
+
+.banner{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url("../imagens/th.jpg");   
+    background-size: 100% 100%;
+    padding-top: 2%;
+    margin-top: 1.5%;
+    border-radius: 0.5%;
+}
+
+
+.conteudo{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 60%;
+
+}
+
+.sobre{
+    width:639px;
+    height: 400px;
+    background-color: rgb(222, 221, 223);
+    margin-top: 1%;
+    overflow: auto;
+    padding: 2%;
+    border-radius: 0.5%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.galeria{
+    width:639px;
+    height: 400px;
+    background-color: rgb(222, 221, 223);
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 0.5%;
+}
+
+.informes{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.info1,.info2,.info3,.info4{
+    width: 310px;
+    height: 200px;
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin: 1% 1% 1% 1%;
+    background-color: rgb(222, 221, 223);  
+    border-radius: 0.5%;  
+}
+
+
+
+.img-futter{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url("../imagens/futter.jpg");   
+    background-size: 100% 100%;
+    padding-top: 2%;
+    border-radius: 0.5%;
+    margin-bottom: 2%;
+}
+
+
+.logo-apoio{
+    width:1280px;
+    height: 100px;
+    display: flex; 
+    border-radius: 0.5%;
+}
+
+h2{
+    text-align: center;
+    margin-top: -1%;
+}
+
+.Apoio1{
+    background-image: url('../imagens/logo.png');
+    background-size: 100% 100%;
+    padding-top: 2%;
+    border-radius: 0.5%;
+    margin-bottom: 2%;
+}
+
+.Apoio2{
+    background-image: url('../imagens/logo_g_ufba.jpg');
+    background-size: 100% 100%;
+    padding-top: 2%;
+    border-radius: 0.5%;
+    margin-bottom: 2%;
+}
+
+.Apoio3{
+    background-image: url('../imagens/ufpe-universidade-federal-de-pernambuco@logo.jpeg');
+    background-size: 100% 100%;
+    padding-top: 2%;
+    border-radius: 0.5%;
+    margin-bottom: 2%;
+}
+
+.Apoio1,.Apoio2,.Apoio3{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1%;
+}
+
